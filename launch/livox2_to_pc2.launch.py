@@ -9,7 +9,7 @@ def generate_launch_description():
             name="livox2_to_pc2",
             output="screen",
             parameters=[{
-                "in_topic": "/stonefish_ros2/blueboat/livox",
+                "in_topic": "/livox/lidar",
                 "out_topic": "/blueboat/livox/points",
                 "frame_id": "",
                 "include_ring": True,
